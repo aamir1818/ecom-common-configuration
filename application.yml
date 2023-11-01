@@ -14,5 +14,11 @@ microservice:
       fetchUserById:
         uri: http://USER-SERVICE/users/   
         
+        
 test:
   input: 500000    
+
+#configurations used Elastic Search ,Logstash,kibana for generating  logs during  Api's Request From PostMan
+#logging:
+  #file:
+    #name: D:\app-logs\ecom-log
